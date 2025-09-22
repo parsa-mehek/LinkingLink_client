@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --mint:#A8FBD3; --teal:#4FB7B3; --indigo:#637AB9; --navy:#31326F;
+}
+
+body { @apply font-sans bg-[#f8fafc] text-[#0f172a]; }
+
+a { @apply hover:opacity-90 transition; }
